@@ -43,7 +43,7 @@ st.markdown("""
 
 @st.cache_resource
 def load_model():
-    model = joblib.load("app/california_pipeline.pkl")
+    model = joblib.load("california_pipeline.pkl")
     return model
 
 # Main app
@@ -232,3 +232,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
